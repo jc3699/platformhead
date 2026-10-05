@@ -9,3 +9,5 @@ Projects migrated from the old `JyothsnaNagella` GitHub account (history not pre
 | `goprojects` | JyothsnaNagella/GoProjects | Go learning projects |
 | `analysisofalgorithms` | JyothsnaNagella/AnalysisofAlgorithms | Algorithm analysis (Python) |
 
+
+Not yet migrated: `fau_tams` (has committed private SSL keys, held back), `eliza` (fork of elizaOS/eliza) and four other repos.
