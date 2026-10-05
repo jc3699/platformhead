@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Uploader with Gallery</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 700px; margin: 2rem auto; }
+    input, button { padding: 10px; margin: 5px 0; width: 100%; }
+    form { margin-bottom: 30px; }
+    .image-card { border: 1px solid #ddd; padding: 10px; margin: 10px 0; border-radius: 8px; }
+    .image-card img { max-width: 100px; display: block; margin-bottom: 5px; }
+    .link { font-size: 0.9em; color: #333; word-break: break-all; }
+    .copy-btn { margin-top: 5px; padding: 5px 10px; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+  <h2> Upload Image</h2>
+
+  <form id="uploadForm" action="/upload" method="POST" enctype="multipart/form-data">
+    <input type="text" name="username" id="username" placeholder="Enter your folder/username" required>
+    <input type="file" name="image" required>
+    <button type="submit">Upload</button>
+  </form>
+
+  <h3> Your Image Gallery</h3>
+  <div id="gallery"></div>
+
+  <script>
+    const form = document.getElementById('uploadForm');
+    const gallery = document.getElementById('gallery');
+    const usernameInput = document.getElementById('username');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const formData = new FormData(form);
+      const username = formData.get('username');
+
+      await fetch('/upload', { method: 'POST', body: formData });
+
+      loadImages(username);
+    });
+
+    async function loadImages(username) {
+      const res = await fetch(`/gallery?user=${username}`);
+      const files = await res.json();
+
+      gallery.innerHTML = '';
+
+      files.forEach(file => {
+        const imageURL = `/uploads/${username}/${file}`;
+        const fullURL = window.location.origin + imageURL;
+
+        const card = document.createElement('div');
+        card.className = 'image-card';
+
+        const img = document.createElement('img');
+        img.src = imageURL;
+
+        const link = document.createElement('div');
+        link.className = 'link';
+        link.innerText = fullURL;
+
+        const copyBtn = document.createElement('button');
+        copyBtn.innerText = '📋 Copy Link';
+        copyBtn.className = 'copy-btn';
+        copyBtn.onclick = () => {
+          navigator.clipboard.writeText(fullURL);
+          copyBtn.innerText = 'Copied!';
+          setTimeout(() => copyBtn.innerText = 'Copy Link', 2000);
+        };
+
+        card.appendChild(img);
+        card.appendChild(link);
+        card.appendChild(copyBtn);
+
+        gallery.appendChild(card);
+      });
+    }
+  </script>
+
+</body>
+</html>

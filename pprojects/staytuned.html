@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stay Tuned</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes floatText {
+            0%, 100% {
+                transform: translateY(-10px);
+            }
+            50% {
+                transform: translateY(10px);
+            }
+        }
+
+        @keyframes rise {
+            0% {
+                transform: translateY(0) scale(1);
+                opacity: 1;
+            }
+            70% {
+                opacity: 0.7;
+            }
+            100% {
+                transform: translateY(-120vh) scale(0.5);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body class="h-screen w-screen bg-gradient-to-b from-blue-900 via-blue-600 to-blue-900 overflow-hidden flex items-center justify-center relative">
+    <div class="absolute top-0 left-0 w-full h-full">
+        <div class="absolute inset-0 overflow-hidden">
+            <div class="absolute w-24 h-24 bg-white bg-opacity-20 rounded-full blur-lg animate-ping" style="top: 10%; left: 20%;"></div>
+            <div class="absolute w-32 h-32 bg-white bg-opacity-20 rounded-full blur-lg animate-ping" style="top: 30%; left: 60%;"></div>
+            <div class="absolute w-16 h-16 bg-white bg-opacity-20 rounded-full blur-lg animate-ping" style="bottom: 20%; right: 30%;"></div>
+        </div>
+    </div>
+    <div class="text-5xl md:text-7xl font-extrabold text-white animate-floatText z-10">
+        Stay Tuned
+    </div>
+</body>
+</html>

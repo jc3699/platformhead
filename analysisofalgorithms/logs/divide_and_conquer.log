@@ -1,0 +1,60 @@
+5k
+Reading points from ./points/5k_random_points.csv
+Processing file: 5k
+. . . . . . . . . . 
+Closest pair: ((2617.03, 8758.97), (2615.42, 8759.51))
+Total average time milliseconds:  42.81172752380371
+10k
+Reading points from ./points/10k_random_points.csv
+Processing file: 10k
+. . . . . . . . . . 
+Closest pair: ((1960.08, 4018.72), (1959.1, 4019.27))
+Total average time milliseconds:  101.67291164398193
+15k
+Reading points from ./points/15k_random_points.csv
+Processing file: 15k
+. . . . . . . . . . 
+Closest pair: ((5360.16, 1966.58), (5360.36, 1966.93))
+Total average time milliseconds:  163.262939453125
+20k
+Reading points from ./points/20k_random_points.csv
+Processing file: 20k
+. . . . . . . . . . 
+Closest pair: ((1050.9, 4611.06), (1050.93, 4611.31))
+Total average time milliseconds:  226.87480449676514
+25k
+Reading points from ./points/25k_random_points.csv
+Processing file: 25k
+. . . . . . . . . . 
+Closest pair: ((9188.92, 8280.07), (9189.21, 8280.33))
+Total average time milliseconds:  286.0522270202637
+30k
+Reading points from ./points/30k_random_points.csv
+Processing file: 30k
+. . . . . . . . . . 
+Closest pair: ((4508.22, 6454.36), (4507.98, 6454.66))
+Total average time milliseconds:  366.899037361145
+35k
+Reading points from ./points/35k_random_points.csv
+Processing file: 35k
+. . . . . . . . . . 
+Closest pair: ((8685.74, 4311.19), (8685.54, 4311.29))
+Total average time milliseconds:  456.55949115753174
+40k
+Reading points from ./points/40k_random_points.csv
+Processing file: 40k
+. . . . . . . . . . 
+Closest pair: ((6861.52, 4196.95), (6861.78, 4197.08))
+Total average time milliseconds:  524.1207361221313
+45k
+Reading points from ./points/45k_random_points.csv
+Processing file: 45k
+. . . . . . . . . . 
+Closest pair: ((8152.13, 5390.15), (8152.16, 5390.33))
+Total average time milliseconds:  634.1970443725586
+50k
+Reading points from ./points/50k_random_points.csv
+Processing file: 50k
+. . . . . . . . . . 
+Closest pair: ((2060.96, 8002.04), (2061.18, 8002.23))
+Total average time milliseconds:  678.7725925445557

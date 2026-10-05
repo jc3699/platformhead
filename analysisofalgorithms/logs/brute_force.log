@@ -1,0 +1,59 @@
+Reading points from ./points/5k_random_points.csv
+Processing file: 5k
+. . . . . . . . . . 
+Closest pair: ((2617.03, 8758.97), (2615.42, 8759.51))
+Total average time milliseconds:  2416.5737628936768
+
+Reading points from ./points/10k_random_points.csv
+Processing file: 10k
+. . . . . . . . . . 
+Closest pair: ((1960.08, 4018.72), (1959.1, 4019.27))
+Total average time milliseconds:  9811.035466194153
+
+Reading points from ./points/15k_random_points.csv
+Processing file: 15k
+. . . . . . . . . . 
+Closest pair: ((5360.16, 1966.58), (5360.36, 1966.93))
+Total average time milliseconds:  22239.412331581116
+
+Reading points from ./points/20k_random_points.csv
+Processing file: 20k
+. . . . . . . . . . 
+Closest pair: ((1050.9, 4611.06), (1050.93, 4611.31))
+Total average time milliseconds:  39872.154116630554
+
+Reading points from ./points/25k_random_points.csv
+Processing file: 25k
+. . . . . . . . . . 
+Closest pair: ((9188.92, 8280.07), (9189.21, 8280.33))
+Total average time milliseconds:  59575.86126327515
+
+Reading points from ./points/30k_random_points.csv
+Processing file: 30k
+. . . . . . . . . . 
+Closest pair: ((4508.22, 6454.36), (4507.98, 6454.66))
+Total average time milliseconds:  86529.45504188538
+
+Reading points from ./points/35k_random_points.csv
+Processing file: 35k
+. . . . . . . . . . 
+Closest pair: ((8685.74, 4311.19), (8685.54, 4311.29))
+Total average time milliseconds:  117659.5575094223
+
+Reading points from ./points/40k_random_points.csv
+Processing file: 40k
+. . . . . . . . . . 
+Closest pair: ((6861.52, 4196.95), (6861.78, 4197.08))
+Total average time milliseconds:  160877.10843086243
+
+Reading points from ./points/45k_random_points.csv
+Processing file: 45k
+. . . . . . . . . . 
+Closest pair: ((8152.16, 5390.33), (8152.13, 5390.15))
+Total average time milliseconds:  196833.2270860672
+
+Reading points from ./points/50k_random_points.csv
+Processing file: 50k
+. . . . . . . . . . 
+Closest pair: ((2061.18, 8002.23), (2060.96, 8002.04))
+Total average time milliseconds:  237615.8019542694
