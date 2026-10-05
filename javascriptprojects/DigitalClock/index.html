@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style>
+body{
+margin: 0%;
+background-image: url('bg.jpg');
+height: 100vh;
+display: flex;
+background-size: cover;
+background-position: center;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.Clock {
+    display: flex;
+}
+
+.Clock div {
+    margin: 5px;
+    position: relative;
+}
+
+.Clock span {
+    width: 200px;
+    height: 140px;
+    background: rgb(80, 41, 111);
+    opacity: 0.8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 140px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.Clock .text {
+    height: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgb(45, 154, 179);
+    opacity: 0.8;
+}
+
+.Clock #ampm {
+    bottom: 0;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background: rgba(142, 11, 178, 0.325);
+}
+
+</style>
+<body>
+<h2>Digital Clock</h2>
+<div class="Clock">
+    <div>
+        <span id="h">12</span>
+        <span class="text">Hours</span>
+    </div>
+    <div>
+        <span id="m">12</span>
+        <span class="text">Minutes</span>
+    </div>
+    <div>
+        <span id="s">12</span>
+        <span class="text">Seconds</span>
+    </div>
+    <div>
+        <span id="ampm">AM</span>
+    </div>
+<div>
+
+<script>
+const h = document.getElementById("h");
+const m = document.getElementById("m");
+const s = document.getElementById("s");
+const ampm = document.getElementById("ampm");
+
+function pad2(n) {
+  return String(n).padStart(2, '0');
+}
+
+function updateTime() {
+  const now = new Date();
+
+  let hours24 = now.getHours();
+  let minutes = now.getMinutes();
+  let seconds = now.getSeconds();
+
+  let meridiem = hours24 >= 12 ? "PM" : "AM";
+
+  // convert to 12-hour format
+  let hours12 = hours24 % 12;
+  if (hours12 === 0) hours12 = 12;
+
+  h.textContent = pad2(hours12);
+  m.textContent = pad2(minutes);
+  s.textContent = pad2(seconds);
+  ampm.textContent = meridiem;
+
+  setTimeout(updateTime, 1000);
+}
+
+updateTime();
+</script>

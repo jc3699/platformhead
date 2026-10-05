@@ -8,6 +8,9 @@ Projects migrated from the old `JyothsnaNagella` GitHub account (history not pre
 | `pprojects` | JyothsnaNagella/PProjects | Personal projects (HTML) |
 | `goprojects` | JyothsnaNagella/GoProjects | Go learning projects |
 | `analysisofalgorithms` | JyothsnaNagella/AnalysisofAlgorithms | Algorithm analysis (Python) |
+| `python` | JyothsnaNagella/Python | Python projects |
+| `javascriptprojects` | JyothsnaNagella/JavascriptProjects | JavaScript projects (HTML) |
+| `datamining-machinelearning` | JyothsnaNagella/DataMining-MachineLearning | ML projects (large model weights in `Utility/resources` omitted) |
 
 
-Not yet migrated: `fau_tams` (has committed private SSL keys, held back), `eliza` (fork of elizaOS/eliza) and four other repos.
+Not yet migrated: `docker-jc`, `fau_tams` (has committed private SSL keys, held back) and `eliza` (fork of elizaOS/eliza).

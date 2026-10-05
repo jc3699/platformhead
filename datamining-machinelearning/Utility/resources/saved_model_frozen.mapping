@@ -1,0 +1,1091 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="MRImages" output_port_id="MRImages:0" />
+		<IR name="MRImages" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="MRImages" output_port_id="MRImages:0" />
+		<IR name="MRImages" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeAa/kernel/read" output_port_id="encodeAa/kernel/read:0" />
+		<IR name="encodeAa/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeAa/kernel/read" output_port_id="encodeAa/kernel/read:0" />
+		<IR name="encodeAa/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeAa/convolution" output_port_id="encodeAa/convolution:0" />
+		<IR name="encodeAa/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeAa/convolution" output_port_id="encodeAa/convolution:0" />
+		<IR name="encodeAa/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeAa/bias/read" output_port_id="encodeAa/bias/read:0" />
+		<IR name="encodeAa/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeAa/bias/read" output_port_id="encodeAa/bias/read:0" />
+		<IR name="encodeAa/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeAa/BiasAdd/Add" output_port_id="encodeAa/BiasAdd:0" />
+		<IR name="encodeAa/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeAa/BiasAdd" output_port_id="encodeAa/BiasAdd:0" />
+		<IR name="encodeAa/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeAa/Relu" output_port_id="encodeAa/Relu:0" />
+		<IR name="encodeAa/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="encodeAa/Relu" output_port_id="encodeAa/Relu:0" />
+		<IR name="encodeAa/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="encodeAb/kernel/read" output_port_id="encodeAb/kernel/read:0" />
+		<IR name="encodeAb/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeAb/kernel/read" output_port_id="encodeAb/kernel/read:0" />
+		<IR name="encodeAb/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeAb/convolution" output_port_id="encodeAb/convolution:0" />
+		<IR name="encodeAb/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeAb/convolution" output_port_id="encodeAb/convolution:0" />
+		<IR name="encodeAb/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeAb/bias/read" output_port_id="encodeAb/bias/read:0" />
+		<IR name="encodeAb/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeAb/bias/read" output_port_id="encodeAb/bias/read:0" />
+		<IR name="encodeAb/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeAb/BiasAdd/Add" output_port_id="encodeAb/BiasAdd:0" />
+		<IR name="encodeAb/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeAb/BiasAdd" output_port_id="encodeAb/BiasAdd:0" />
+		<IR name="encodeAb/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeAb/Relu" output_port_id="encodeAb/Relu:0" />
+		<IR name="encodeAb/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="encodeAb/Relu" output_port_id="encodeAb/Relu:0" />
+		<IR name="encodeAb/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="poolA/MaxPool" output_port_id="poolA/MaxPool:0" />
+		<IR name="poolA/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="poolA/MaxPool" output_port_id="poolA/MaxPool:0" />
+		<IR name="poolA/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="encodeBa/kernel/read" output_port_id="encodeBa/kernel/read:0" />
+		<IR name="encodeBa/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeBa/kernel/read" output_port_id="encodeBa/kernel/read:0" />
+		<IR name="encodeBa/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeBa/convolution" output_port_id="encodeBa/convolution:0" />
+		<IR name="encodeBa/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeBa/convolution" output_port_id="encodeBa/convolution:0" />
+		<IR name="encodeBa/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeBa/bias/read" output_port_id="encodeBa/bias/read:0" />
+		<IR name="encodeBa/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeBa/bias/read" output_port_id="encodeBa/bias/read:0" />
+		<IR name="encodeBa/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeBa/BiasAdd/Add" output_port_id="encodeBa/BiasAdd:0" />
+		<IR name="encodeBa/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeBa/BiasAdd" output_port_id="encodeBa/BiasAdd:0" />
+		<IR name="encodeBa/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeBa/Relu" output_port_id="encodeBa/Relu:0" />
+		<IR name="encodeBa/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="encodeBa/Relu" output_port_id="encodeBa/Relu:0" />
+		<IR name="encodeBa/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="encodeBb/kernel/read" output_port_id="encodeBb/kernel/read:0" />
+		<IR name="encodeBb/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeBb/kernel/read" output_port_id="encodeBb/kernel/read:0" />
+		<IR name="encodeBb/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeBb/convolution" output_port_id="encodeBb/convolution:0" />
+		<IR name="encodeBb/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeBb/convolution" output_port_id="encodeBb/convolution:0" />
+		<IR name="encodeBb/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeBb/bias/read" output_port_id="encodeBb/bias/read:0" />
+		<IR name="encodeBb/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeBb/bias/read" output_port_id="encodeBb/bias/read:0" />
+		<IR name="encodeBb/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeBb/BiasAdd/Add" output_port_id="encodeBb/BiasAdd:0" />
+		<IR name="encodeBb/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeBb/BiasAdd" output_port_id="encodeBb/BiasAdd:0" />
+		<IR name="encodeBb/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeBb/Relu" output_port_id="encodeBb/Relu:0" />
+		<IR name="encodeBb/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="encodeBb/Relu" output_port_id="encodeBb/Relu:0" />
+		<IR name="encodeBb/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="poolB/MaxPool" output_port_id="poolB/MaxPool:0" />
+		<IR name="poolB/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="poolB/MaxPool" output_port_id="poolB/MaxPool:0" />
+		<IR name="poolB/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="encodeCa/kernel/read" output_port_id="encodeCa/kernel/read:0" />
+		<IR name="encodeCa/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeCa/kernel/read" output_port_id="encodeCa/kernel/read:0" />
+		<IR name="encodeCa/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeCa/convolution" output_port_id="encodeCa/convolution:0" />
+		<IR name="encodeCa/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeCa/convolution" output_port_id="encodeCa/convolution:0" />
+		<IR name="encodeCa/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeCa/bias/read" output_port_id="encodeCa/bias/read:0" />
+		<IR name="encodeCa/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeCa/bias/read" output_port_id="encodeCa/bias/read:0" />
+		<IR name="encodeCa/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeCa/BiasAdd/Add" output_port_id="encodeCa/BiasAdd:0" />
+		<IR name="encodeCa/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeCa/BiasAdd" output_port_id="encodeCa/BiasAdd:0" />
+		<IR name="encodeCa/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeCa/Relu" output_port_id="encodeCa/Relu:0" />
+		<IR name="encodeCa/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="encodeCa/Relu" output_port_id="encodeCa/Relu:0" />
+		<IR name="encodeCa/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="encodeCb/kernel/read" output_port_id="encodeCb/kernel/read:0" />
+		<IR name="encodeCb/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeCb/kernel/read" output_port_id="encodeCb/kernel/read:0" />
+		<IR name="encodeCb/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeCb/convolution" output_port_id="encodeCb/convolution:0" />
+		<IR name="encodeCb/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeCb/convolution" output_port_id="encodeCb/convolution:0" />
+		<IR name="encodeCb/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeCb/bias/read" output_port_id="encodeCb/bias/read:0" />
+		<IR name="encodeCb/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeCb/bias/read" output_port_id="encodeCb/bias/read:0" />
+		<IR name="encodeCb/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeCb/BiasAdd/Add" output_port_id="encodeCb/BiasAdd:0" />
+		<IR name="encodeCb/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeCb/BiasAdd" output_port_id="encodeCb/BiasAdd:0" />
+		<IR name="encodeCb/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeCb/Relu" output_port_id="encodeCb/Relu:0" />
+		<IR name="encodeCb/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="encodeCb/Relu" output_port_id="encodeCb/Relu:0" />
+		<IR name="encodeCb/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="poolC/MaxPool" output_port_id="poolC/MaxPool:0" />
+		<IR name="poolC/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="poolC/MaxPool" output_port_id="poolC/MaxPool:0" />
+		<IR name="poolC/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="encodeDa/kernel/read" output_port_id="encodeDa/kernel/read:0" />
+		<IR name="encodeDa/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeDa/kernel/read" output_port_id="encodeDa/kernel/read:0" />
+		<IR name="encodeDa/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeDa/convolution" output_port_id="encodeDa/convolution:0" />
+		<IR name="encodeDa/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeDa/convolution" output_port_id="encodeDa/convolution:0" />
+		<IR name="encodeDa/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeDa/bias/read" output_port_id="encodeDa/bias/read:0" />
+		<IR name="encodeDa/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeDa/bias/read" output_port_id="encodeDa/bias/read:0" />
+		<IR name="encodeDa/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeDa/BiasAdd/Add" output_port_id="encodeDa/BiasAdd:0" />
+		<IR name="encodeDa/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeDa/BiasAdd" output_port_id="encodeDa/BiasAdd:0" />
+		<IR name="encodeDa/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeDa/Relu" output_port_id="encodeDa/Relu:0" />
+		<IR name="encodeDa/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="encodeDa/Relu" output_port_id="encodeDa/Relu:0" />
+		<IR name="encodeDa/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="encodeDb/kernel/read" output_port_id="encodeDb/kernel/read:0" />
+		<IR name="encodeDb/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeDb/kernel/read" output_port_id="encodeDb/kernel/read:0" />
+		<IR name="encodeDb/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeDb/convolution" output_port_id="encodeDb/convolution:0" />
+		<IR name="encodeDb/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeDb/convolution" output_port_id="encodeDb/convolution:0" />
+		<IR name="encodeDb/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeDb/bias/read" output_port_id="encodeDb/bias/read:0" />
+		<IR name="encodeDb/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeDb/bias/read" output_port_id="encodeDb/bias/read:0" />
+		<IR name="encodeDb/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeDb/BiasAdd/Add" output_port_id="encodeDb/BiasAdd:0" />
+		<IR name="encodeDb/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeDb/BiasAdd" output_port_id="encodeDb/BiasAdd:0" />
+		<IR name="encodeDb/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeDb/Relu" output_port_id="encodeDb/Relu:0" />
+		<IR name="encodeDb/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="encodeDb/Relu" output_port_id="encodeDb/Relu:0" />
+		<IR name="encodeDb/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="poolD/MaxPool" output_port_id="poolD/MaxPool:0" />
+		<IR name="poolD/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="poolD/MaxPool" output_port_id="poolD/MaxPool:0" />
+		<IR name="poolD/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="encodeEa/kernel/read" output_port_id="encodeEa/kernel/read:0" />
+		<IR name="encodeEa/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeEa/kernel/read" output_port_id="encodeEa/kernel/read:0" />
+		<IR name="encodeEa/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeEa/convolution" output_port_id="encodeEa/convolution:0" />
+		<IR name="encodeEa/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeEa/convolution" output_port_id="encodeEa/convolution:0" />
+		<IR name="encodeEa/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeEa/bias/read" output_port_id="encodeEa/bias/read:0" />
+		<IR name="encodeEa/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeEa/bias/read" output_port_id="encodeEa/bias/read:0" />
+		<IR name="encodeEa/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeEa/BiasAdd/Add" output_port_id="encodeEa/BiasAdd:0" />
+		<IR name="encodeEa/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeEa/BiasAdd" output_port_id="encodeEa/BiasAdd:0" />
+		<IR name="encodeEa/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeEa/Relu" output_port_id="encodeEa/Relu:0" />
+		<IR name="encodeEa/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="encodeEa/Relu" output_port_id="encodeEa/Relu:0" />
+		<IR name="encodeEa/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="encodeEb/kernel/read" output_port_id="encodeEb/kernel/read:0" />
+		<IR name="encodeEb/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeEb/kernel/read" output_port_id="encodeEb/kernel/read:0" />
+		<IR name="encodeEb/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeEb/convolution" output_port_id="encodeEb/convolution:0" />
+		<IR name="encodeEb/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeEb/convolution" output_port_id="encodeEb/convolution:0" />
+		<IR name="encodeEb/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeEb/bias/read" output_port_id="encodeEb/bias/read:0" />
+		<IR name="encodeEb/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeEb/bias/read" output_port_id="encodeEb/bias/read:0" />
+		<IR name="encodeEb/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="encodeEb/BiasAdd/Add" output_port_id="encodeEb/BiasAdd:0" />
+		<IR name="encodeEb/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeEb/BiasAdd" output_port_id="encodeEb/BiasAdd:0" />
+		<IR name="encodeEb/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encodeEb/Relu" output_port_id="encodeEb/Relu:0" />
+		<IR name="encodeEb/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="encodeEb/Relu" output_port_id="encodeEb/Relu:0" />
+		<IR name="encodeEb/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="upE/Shape/GatherNCHWtoNHWC" output_port_id="upE/Shape:0" />
+		<IR name="upE/Shape/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="upE/Shape" output_port_id="upE/Shape:0" />
+		<IR name="upE/Shape/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="upE/strided_slice/stack" output_port_id="upE/strided_slice/stack:0" />
+		<IR name="upE/strided_slice/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upE/strided_slice/stack" output_port_id="upE/strided_slice/stack:0" />
+		<IR name="upE/strided_slice/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upE/strided_slice/stack_1" output_port_id="upE/strided_slice/stack_1:0" />
+		<IR name="upE/strided_slice/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upE/strided_slice/stack_1" output_port_id="upE/strided_slice/stack_1:0" />
+		<IR name="upE/strided_slice/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upE/strided_slice/stack_2" output_port_id="upE/strided_slice/stack_2:0" />
+		<IR name="upE/strided_slice/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upE/strided_slice/stack_2" output_port_id="upE/strided_slice/stack_2:0" />
+		<IR name="upE/strided_slice/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upE/strided_slice" output_port_id="upE/strided_slice:0" />
+		<IR name="upE/strided_slice" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="upE/strided_slice" output_port_id="upE/strided_slice:0" />
+		<IR name="upE/strided_slice" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="upE/Const" output_port_id="upE/Const:0" />
+		<IR name="upE/Const" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upE/Const" output_port_id="upE/Const:0" />
+		<IR name="upE/Const" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upE/ResizeBilinear/Cast_1" output_port_id="upE/mul:0" />
+		<IR name="upE/ResizeBilinear/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="upE/mul" output_port_id="upE/mul:0" />
+		<IR name="upE/ResizeBilinear/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="upE/ResizeBilinear" output_port_id="upE/ResizeBilinear:0" />
+		<IR name="upE/ResizeBilinear" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="upE/ResizeBilinear" output_port_id="upE/ResizeBilinear:0" />
+		<IR name="upE/ResizeBilinear" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="concatD/concat" output_port_id="concatD/concat:0" />
+		<IR name="concatD/concat" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="concatD/concat" output_port_id="concatD/concat:0" />
+		<IR name="concatD/concat" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeCa/kernel/read" output_port_id="decodeCa/kernel/read:0" />
+		<IR name="decodeCa/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeCa/kernel/read" output_port_id="decodeCa/kernel/read:0" />
+		<IR name="decodeCa/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeCa/convolution" output_port_id="decodeCa/convolution:0" />
+		<IR name="decodeCa/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeCa/convolution" output_port_id="decodeCa/convolution:0" />
+		<IR name="decodeCa/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeCa/bias/read" output_port_id="decodeCa/bias/read:0" />
+		<IR name="decodeCa/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeCa/bias/read" output_port_id="decodeCa/bias/read:0" />
+		<IR name="decodeCa/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeCa/BiasAdd/Add" output_port_id="decodeCa/BiasAdd:0" />
+		<IR name="decodeCa/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeCa/BiasAdd" output_port_id="decodeCa/BiasAdd:0" />
+		<IR name="decodeCa/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeCa/Relu" output_port_id="decodeCa/Relu:0" />
+		<IR name="decodeCa/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="decodeCa/Relu" output_port_id="decodeCa/Relu:0" />
+		<IR name="decodeCa/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="decodeCb/kernel/read" output_port_id="decodeCb/kernel/read:0" />
+		<IR name="decodeCb/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeCb/kernel/read" output_port_id="decodeCb/kernel/read:0" />
+		<IR name="decodeCb/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeCb/convolution" output_port_id="decodeCb/convolution:0" />
+		<IR name="decodeCb/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeCb/convolution" output_port_id="decodeCb/convolution:0" />
+		<IR name="decodeCb/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeCb/bias/read" output_port_id="decodeCb/bias/read:0" />
+		<IR name="decodeCb/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeCb/bias/read" output_port_id="decodeCb/bias/read:0" />
+		<IR name="decodeCb/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeCb/BiasAdd/Add" output_port_id="decodeCb/BiasAdd:0" />
+		<IR name="decodeCb/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeCb/BiasAdd" output_port_id="decodeCb/BiasAdd:0" />
+		<IR name="decodeCb/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeCb/Relu" output_port_id="decodeCb/Relu:0" />
+		<IR name="decodeCb/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="decodeCb/Relu" output_port_id="decodeCb/Relu:0" />
+		<IR name="decodeCb/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="upC/Shape/GatherNCHWtoNHWC" output_port_id="upC/Shape:0" />
+		<IR name="upC/Shape/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="upC/Shape" output_port_id="upC/Shape:0" />
+		<IR name="upC/Shape/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="upC/strided_slice/stack" output_port_id="upC/strided_slice/stack:0" />
+		<IR name="upC/strided_slice/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upC/strided_slice/stack" output_port_id="upC/strided_slice/stack:0" />
+		<IR name="upC/strided_slice/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upC/strided_slice/stack_1" output_port_id="upC/strided_slice/stack_1:0" />
+		<IR name="upC/strided_slice/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upC/strided_slice/stack_1" output_port_id="upC/strided_slice/stack_1:0" />
+		<IR name="upC/strided_slice/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upC/strided_slice/stack_2" output_port_id="upC/strided_slice/stack_2:0" />
+		<IR name="upC/strided_slice/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upC/strided_slice/stack_2" output_port_id="upC/strided_slice/stack_2:0" />
+		<IR name="upC/strided_slice/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upC/strided_slice" output_port_id="upC/strided_slice:0" />
+		<IR name="upC/strided_slice" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="upC/strided_slice" output_port_id="upC/strided_slice:0" />
+		<IR name="upC/strided_slice" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="upC/Const" output_port_id="upC/Const:0" />
+		<IR name="upC/Const" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upC/Const" output_port_id="upC/Const:0" />
+		<IR name="upC/Const" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upC/ResizeBilinear/Cast_1" output_port_id="upC/mul:0" />
+		<IR name="upC/ResizeBilinear/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="upC/mul" output_port_id="upC/mul:0" />
+		<IR name="upC/ResizeBilinear/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="upC/ResizeBilinear" output_port_id="upC/ResizeBilinear:0" />
+		<IR name="upC/ResizeBilinear" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="upC/ResizeBilinear" output_port_id="upC/ResizeBilinear:0" />
+		<IR name="upC/ResizeBilinear" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="concatC/concat" output_port_id="concatC/concat:0" />
+		<IR name="concatC/concat" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="concatC/concat" output_port_id="concatC/concat:0" />
+		<IR name="concatC/concat" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeBa/kernel/read" output_port_id="decodeBa/kernel/read:0" />
+		<IR name="decodeBa/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeBa/kernel/read" output_port_id="decodeBa/kernel/read:0" />
+		<IR name="decodeBa/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeBa/convolution" output_port_id="decodeBa/convolution:0" />
+		<IR name="decodeBa/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeBa/convolution" output_port_id="decodeBa/convolution:0" />
+		<IR name="decodeBa/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeBa/bias/read" output_port_id="decodeBa/bias/read:0" />
+		<IR name="decodeBa/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeBa/bias/read" output_port_id="decodeBa/bias/read:0" />
+		<IR name="decodeBa/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeBa/BiasAdd/Add" output_port_id="decodeBa/BiasAdd:0" />
+		<IR name="decodeBa/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeBa/BiasAdd" output_port_id="decodeBa/BiasAdd:0" />
+		<IR name="decodeBa/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeBa/Relu" output_port_id="decodeBa/Relu:0" />
+		<IR name="decodeBa/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="decodeBa/Relu" output_port_id="decodeBa/Relu:0" />
+		<IR name="decodeBa/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="decodeBb/kernel/read" output_port_id="decodeBb/kernel/read:0" />
+		<IR name="decodeBb/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeBb/kernel/read" output_port_id="decodeBb/kernel/read:0" />
+		<IR name="decodeBb/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeBb/convolution" output_port_id="decodeBb/convolution:0" />
+		<IR name="decodeBb/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeBb/convolution" output_port_id="decodeBb/convolution:0" />
+		<IR name="decodeBb/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeBb/bias/read" output_port_id="decodeBb/bias/read:0" />
+		<IR name="decodeBb/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeBb/bias/read" output_port_id="decodeBb/bias/read:0" />
+		<IR name="decodeBb/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeBb/BiasAdd/Add" output_port_id="decodeBb/BiasAdd:0" />
+		<IR name="decodeBb/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeBb/BiasAdd" output_port_id="decodeBb/BiasAdd:0" />
+		<IR name="decodeBb/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeBb/Relu" output_port_id="decodeBb/Relu:0" />
+		<IR name="decodeBb/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="decodeBb/Relu" output_port_id="decodeBb/Relu:0" />
+		<IR name="decodeBb/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="upB/Shape/GatherNCHWtoNHWC" output_port_id="upB/Shape:0" />
+		<IR name="upB/Shape/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="upB/Shape" output_port_id="upB/Shape:0" />
+		<IR name="upB/Shape/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="upB/strided_slice/stack" output_port_id="upB/strided_slice/stack:0" />
+		<IR name="upB/strided_slice/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upB/strided_slice/stack" output_port_id="upB/strided_slice/stack:0" />
+		<IR name="upB/strided_slice/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upB/strided_slice/stack_1" output_port_id="upB/strided_slice/stack_1:0" />
+		<IR name="upB/strided_slice/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upB/strided_slice/stack_1" output_port_id="upB/strided_slice/stack_1:0" />
+		<IR name="upB/strided_slice/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upB/strided_slice/stack_2" output_port_id="upB/strided_slice/stack_2:0" />
+		<IR name="upB/strided_slice/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upB/strided_slice/stack_2" output_port_id="upB/strided_slice/stack_2:0" />
+		<IR name="upB/strided_slice/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upB/strided_slice" output_port_id="upB/strided_slice:0" />
+		<IR name="upB/strided_slice" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="upB/strided_slice" output_port_id="upB/strided_slice:0" />
+		<IR name="upB/strided_slice" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="upB/Const" output_port_id="upB/Const:0" />
+		<IR name="upB/Const" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upB/Const" output_port_id="upB/Const:0" />
+		<IR name="upB/Const" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upB/ResizeBilinear/Cast_1" output_port_id="upB/mul:0" />
+		<IR name="upB/ResizeBilinear/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="upB/mul" output_port_id="upB/mul:0" />
+		<IR name="upB/ResizeBilinear/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="upB/ResizeBilinear" output_port_id="upB/ResizeBilinear:0" />
+		<IR name="upB/ResizeBilinear" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="upB/ResizeBilinear" output_port_id="upB/ResizeBilinear:0" />
+		<IR name="upB/ResizeBilinear" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="concatB/concat" output_port_id="concatB/concat:0" />
+		<IR name="concatB/concat" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="concatB/concat" output_port_id="concatB/concat:0" />
+		<IR name="concatB/concat" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeAa/kernel/read" output_port_id="decodeAa/kernel/read:0" />
+		<IR name="decodeAa/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeAa/kernel/read" output_port_id="decodeAa/kernel/read:0" />
+		<IR name="decodeAa/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeAa/convolution" output_port_id="decodeAa/convolution:0" />
+		<IR name="decodeAa/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeAa/convolution" output_port_id="decodeAa/convolution:0" />
+		<IR name="decodeAa/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeAa/bias/read" output_port_id="decodeAa/bias/read:0" />
+		<IR name="decodeAa/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeAa/bias/read" output_port_id="decodeAa/bias/read:0" />
+		<IR name="decodeAa/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeAa/BiasAdd/Add" output_port_id="decodeAa/BiasAdd:0" />
+		<IR name="decodeAa/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeAa/BiasAdd" output_port_id="decodeAa/BiasAdd:0" />
+		<IR name="decodeAa/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeAa/Relu" output_port_id="decodeAa/Relu:0" />
+		<IR name="decodeAa/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="decodeAa/Relu" output_port_id="decodeAa/Relu:0" />
+		<IR name="decodeAa/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="decodeAb/kernel/read" output_port_id="decodeAb/kernel/read:0" />
+		<IR name="decodeAb/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeAb/kernel/read" output_port_id="decodeAb/kernel/read:0" />
+		<IR name="decodeAb/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeAb/convolution" output_port_id="decodeAb/convolution:0" />
+		<IR name="decodeAb/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeAb/convolution" output_port_id="decodeAb/convolution:0" />
+		<IR name="decodeAb/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeAb/bias/read" output_port_id="decodeAb/bias/read:0" />
+		<IR name="decodeAb/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeAb/bias/read" output_port_id="decodeAb/bias/read:0" />
+		<IR name="decodeAb/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="decodeAb/BiasAdd/Add" output_port_id="decodeAb/BiasAdd:0" />
+		<IR name="decodeAb/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeAb/BiasAdd" output_port_id="decodeAb/BiasAdd:0" />
+		<IR name="decodeAb/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decodeAb/Relu" output_port_id="decodeAb/Relu:0" />
+		<IR name="decodeAb/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="decodeAb/Relu" output_port_id="decodeAb/Relu:0" />
+		<IR name="decodeAb/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="upA/Shape/GatherNCHWtoNHWC" output_port_id="upA/Shape:0" />
+		<IR name="upA/Shape/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="upA/Shape" output_port_id="upA/Shape:0" />
+		<IR name="upA/Shape/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="upA/strided_slice/stack" output_port_id="upA/strided_slice/stack:0" />
+		<IR name="upA/strided_slice/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upA/strided_slice/stack" output_port_id="upA/strided_slice/stack:0" />
+		<IR name="upA/strided_slice/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upA/strided_slice/stack_1" output_port_id="upA/strided_slice/stack_1:0" />
+		<IR name="upA/strided_slice/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upA/strided_slice/stack_1" output_port_id="upA/strided_slice/stack_1:0" />
+		<IR name="upA/strided_slice/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upA/strided_slice/stack_2" output_port_id="upA/strided_slice/stack_2:0" />
+		<IR name="upA/strided_slice/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upA/strided_slice/stack_2" output_port_id="upA/strided_slice/stack_2:0" />
+		<IR name="upA/strided_slice/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upA/strided_slice" output_port_id="upA/strided_slice:0" />
+		<IR name="upA/strided_slice" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="upA/strided_slice" output_port_id="upA/strided_slice:0" />
+		<IR name="upA/strided_slice" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="upA/Const" output_port_id="upA/Const:0" />
+		<IR name="upA/Const" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upA/Const" output_port_id="upA/Const:0" />
+		<IR name="upA/Const" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="upA/ResizeBilinear/Cast_1" output_port_id="upA/mul:0" />
+		<IR name="upA/ResizeBilinear/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="upA/mul" output_port_id="upA/mul:0" />
+		<IR name="upA/ResizeBilinear/Cast_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="upA/ResizeBilinear" output_port_id="upA/ResizeBilinear:0" />
+		<IR name="upA/ResizeBilinear" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="upA/ResizeBilinear" output_port_id="upA/ResizeBilinear:0" />
+		<IR name="upA/ResizeBilinear" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="concatA/concat" output_port_id="concatA/concat:0" />
+		<IR name="concatA/concat" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="concatA/concat" output_port_id="concatA/concat:0" />
+		<IR name="concatA/concat" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="convOuta/kernel/read" output_port_id="convOuta/kernel/read:0" />
+		<IR name="convOuta/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="convOuta/kernel/read" output_port_id="convOuta/kernel/read:0" />
+		<IR name="convOuta/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="convOuta/convolution" output_port_id="convOuta/convolution:0" />
+		<IR name="convOuta/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="convOuta/convolution" output_port_id="convOuta/convolution:0" />
+		<IR name="convOuta/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="convOuta/bias/read" output_port_id="convOuta/bias/read:0" />
+		<IR name="convOuta/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="convOuta/bias/read" output_port_id="convOuta/bias/read:0" />
+		<IR name="convOuta/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="convOuta/BiasAdd/Add" output_port_id="convOuta/BiasAdd:0" />
+		<IR name="convOuta/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="convOuta/BiasAdd" output_port_id="convOuta/BiasAdd:0" />
+		<IR name="convOuta/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="convOuta/Relu" output_port_id="convOuta/Relu:0" />
+		<IR name="convOuta/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="convOuta/Relu" output_port_id="convOuta/Relu:0" />
+		<IR name="convOuta/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="convOutb/kernel/read" output_port_id="convOutb/kernel/read:0" />
+		<IR name="convOutb/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="convOutb/kernel/read" output_port_id="convOutb/kernel/read:0" />
+		<IR name="convOutb/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="convOutb/convolution" output_port_id="convOutb/convolution:0" />
+		<IR name="convOutb/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="convOutb/convolution" output_port_id="convOutb/convolution:0" />
+		<IR name="convOutb/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="convOutb/bias/read" output_port_id="convOutb/bias/read:0" />
+		<IR name="convOutb/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="convOutb/bias/read" output_port_id="convOutb/bias/read:0" />
+		<IR name="convOutb/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="convOutb/BiasAdd/Add" output_port_id="convOutb/BiasAdd:0" />
+		<IR name="convOutb/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="convOutb/BiasAdd" output_port_id="convOutb/BiasAdd:0" />
+		<IR name="convOutb/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="convOutb/Relu" output_port_id="convOutb/Relu:0" />
+		<IR name="convOutb/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="convOutb/Relu" output_port_id="convOutb/Relu:0" />
+		<IR name="convOutb/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="PredictionMask/kernel/read" output_port_id="PredictionMask/kernel/read:0" />
+		<IR name="PredictionMask/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="PredictionMask/kernel/read" output_port_id="PredictionMask/kernel/read:0" />
+		<IR name="PredictionMask/kernel/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="PredictionMask/convolution" output_port_id="PredictionMask/convolution:0" />
+		<IR name="PredictionMask/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="PredictionMask/convolution" output_port_id="PredictionMask/convolution:0" />
+		<IR name="PredictionMask/convolution" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="PredictionMask/bias/read" output_port_id="PredictionMask/bias/read:0" />
+		<IR name="PredictionMask/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="PredictionMask/bias/read" output_port_id="PredictionMask/bias/read:0" />
+		<IR name="PredictionMask/bias/read" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="PredictionMask/BiasAdd/Add" output_port_id="PredictionMask/BiasAdd:0" />
+		<IR name="PredictionMask/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="PredictionMask/BiasAdd" output_port_id="PredictionMask/BiasAdd:0" />
+		<IR name="PredictionMask/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="PredictionMask/Sigmoid" output_port_id="PredictionMask/Sigmoid:0" />
+		<IR name="PredictionMask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="PredictionMask/Sigmoid" output_port_id="PredictionMask/Sigmoid:0" />
+		<IR name="PredictionMask/Sigmoid" output_port_id="2" />
+	</map>
+</mapping>
